@@ -1,0 +1,16 @@
+racine
+* un_fichier f
+ceci constitue le contenu de ce fichier
+* sd1 d %ceci est un commentaire : le dossier sd1 a pour pere la racine
+** un_autre_fichier f %cet autre fichier est inclus dans sd1
+ceci constitue le contenu de cet autre fichier
+** sd2 d %le dossier sd2 est inclus dans sd1
+*** un_3e_fichier f %ce fichier est inclus dans sd2
+ceci constitue le contenu de ce 3e fichier
+** fin %commentaire : on ferme sd2, et on revient dans sd1
+** un_dernier_fichier f %ce fichier est lui aussi inclus dans sd1
+ceci constitue le contenu de ___ ce dernier fichier
+* fin %on ferme sd1, et on revient a la racine
+* sd3 d %ce dossier a pour pere la racine, et ne contient aucun fichier
+* fin %on ferme sd3, et on revient a la racine
+fin

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GestionFichiers:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GestionFichiers_jar</output-path>
+    <root id="archive" name="GestionFichiers.jar">
+      <element id="module-output" name="GestionFichiers" />
+    </root>
+  </artifact>
+</component>
